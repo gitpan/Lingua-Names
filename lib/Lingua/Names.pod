@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-Lingua::Names - test a string to see if it is a name
+Lingua::Names - test a string to see if it is a first name
 
 =head1 SYNOPSIS
 
@@ -12,7 +12,7 @@ Lingua::Names - test a string to see if it is a name
 
       printf "is name '$string'? %s\n",
          ( 
-            is_name('Leo') 
+            is_name($string) 
                ? 'yes' 
                : 'no' 
          );
@@ -54,6 +54,10 @@ Please contact AUTHOR with any suggestions, crit, complaints, etc.. AUTHOR is ve
 =head1 SEE ALSO
 
 Peter Hickman's L<Data::RandomPerson>, most of the names are taken from here. Sadly, you can't ask those modules for a list.
+
+=head1 THANKS
+
+"skim" - helped with documentation.
 
 =head1 AUTHOR
 

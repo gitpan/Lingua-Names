@@ -1,6 +1,8 @@
 Lingua::Names 
 ===============================================
 
+Test if a string is a first name.
+
 INSTALLATION
 
 See INSTALL.
